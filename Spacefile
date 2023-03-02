@@ -1,0 +1,14 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: qwik-tw-vercel-starter-kit
+    src: .
+    engine: nodejs16
+    commands:
+      - npm run build
+    include:
+      - dist
+      - server
+      - public
+    primary: true
+    run: "node server/entry.express.js"

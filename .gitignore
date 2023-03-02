@@ -39,3 +39,13 @@ lerna-debug.log*
 
 # Vercel
 .vercel
+
+# Local Netlify folder
+.netlify
+
+# Netlify
+
+# Cloudflare
+functions/**/*.js
+
+.space
